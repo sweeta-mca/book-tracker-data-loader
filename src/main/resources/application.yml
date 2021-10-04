@@ -1,0 +1,19 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: main
+      username: <username>
+      password: <password>
+      schema-action: create-if-not-exists
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+datastax.astra:
+    secure-connect-bundle: secure-connect-book-tracker.zip
+astra.db:
+    id:30f32976-4ef0-4e49-9d64-8d19226e2bee-1
+    region:europe-west1
+    keyspace:main
+    application.token:AstraCS:uNvtZPWqDORDfxvNMZMAubSR:ad8fb518c4f9ef081d3da624c73ebcc2ebf2e865ec7c444d69a510a658f2149e
