@@ -1,4 +1,4 @@
-package connection;
+package com.techy.betterreadsdataloader.connection;
 
 import java.io.File;
 
