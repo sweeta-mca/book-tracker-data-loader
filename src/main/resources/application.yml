@@ -1,9 +1,14 @@
+spring.application.name: better-reads-data-loader
+datadump.location:
+  author: D:\sweeta\projects\springBoot\better-reads\better-reads-data-loader\sample-authors.txt
+  works: D:\sweeta\projects\springBoot\better-reads\better-reads-data-loader\sample-works.txt
+
 spring:
   data:
     cassandra:
       keyspace-name: main
-      username: <username>
-      password: <password>
+      username: uNvtZPWqDORDfxvNMZMAubSR
+      password: +YJpnvZPoIdZ9fmODkiKeqhRM_,mxSO_u-riELudBf4EW79S95+mzTk8qU5j6fm+++MCUvl_xZsIv_joWSJLSf2bzUkO0ZbR+h47jRkAiFdvpBxxxCKPMLebZ7aDHiB-
       schema-action: create-if-not-exists
       request:
         timeout: 10s
